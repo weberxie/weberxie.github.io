@@ -9,13 +9,13 @@ markdown: kramdown
 
 # The title and tagline is showed on homepage
 #
-title :  Simpleyyt 
-tagline: Yitao's Blog
+title :  WeberXie 
+tagline: Weber's Blog
 
 # Information about author
 #
 author :
-  name : Yitao Yao
+  name : Xie Tingwen 
   
 # Information for contacts showed at on the footer
 #
