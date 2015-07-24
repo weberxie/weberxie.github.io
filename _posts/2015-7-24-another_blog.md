@@ -9,16 +9,12 @@ tags: [Essay]
 
 <!--more-->
 
-#SSH连接#
+#前世今生#
 
-VoCore连上电源后，等待大约30秒之后，便会有发出一个ssid为VoCore的无加密wifi。连上之后，在浏览器输入192.168.1.1，进入Openwrt的Luci界面。
-
-![](http://simpleyyt.qiniudn.com/2014-08-06%2010:17:23%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
-
-用户名为root，密码为vocore，登录进去之后，系统会提示修改密码并开启ssh，按照提示操作之后，打开终端，输入：
+前博客使用WordPress在香港的主机上搭建
 
     ssh root@192.168.1.1
-    
+   
 输入密码之后，便可以登录进去了。
 
 #STA+AP模式#
