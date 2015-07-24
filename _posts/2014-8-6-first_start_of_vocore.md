@@ -1,6 +1,6 @@
 ---
 layout: post
-category: 随笔
+category: Essay
 title: 新博客
 tagline: by Weber
 tags: [随笔]
