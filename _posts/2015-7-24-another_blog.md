@@ -3,9 +3,9 @@ layout: post
 category: Essay
 title: 新博客
 tagline: by Weber
-tags: [随笔]
+tags: [Essay]
 ---
-换了个VoCore板之后，VoCore就能正常启动了，顺便测试了一下ssh和ap+sta模式。
+放弃了原先的博客，启用了github的Jekyll。
 
 <!--more-->
 
