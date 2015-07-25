@@ -11,57 +11,11 @@ tags: [Essay]
 
 #前世今生#
 
-前博客使用WordPress在香港的主机上搭建
+前博客使用WordPress在香港的主机上搭建,访问速度尚可且不需备案，但是，一方面由于WordPress太过笨重，另一方面买主机太贵，不怎么划算，也没有更新几篇，就废弃了。自从工作以来，进入了新的领域，一直在学习但是没有产出，遂想要重新搭建个博客，记录下学习的过程以及一些碎碎念:)
 
-    ssh root@192.168.1.1
-   
-输入密码之后，便可以登录进去了。
+#此博客的内容#
 
-#STA+AP模式#
+一般博客内容大多可分为两种，一是工作或者学习中的思考，二是生活上的一些记录，我也不例外，主要想记录下学习的过程以及一些思考和感悟。自认为凭我的水平，写不出什么高质量的技术博客，但是从工作半年多来的心得，逐渐认识到做记录以及思考的好处，再就是在军哥的督促下，所以下决心培养下这个习惯，人都是懒惰的，原理舒适区总需要那么点决心。
+#学习方向#
 
-根据作者博客介绍，VoCore的STA和AP能够同时工作。首先，开启STA模式，添加下面内容到｀/etc/config/network`。
-
-    config interface wwan
-        option proto 'dhcp'
-	
-然后，修改`/etc/config/wireless`文件：
-
-    config wifi-device  radio0
-    	option type     mac80211
-    	option channel  11
-    	option hwmode	11ng
-    	option path	'10180000.wmac'
-    	list ht_capab	GF
-    	list ht_capab	SHORT-GI-20
-    	list ht_capab	SHORT-GI-40
-    	list ht_capab	RX-STBC1
-    	option htmode	HT20
-    
-    config wifi-iface
-        option device   radio0
-    	option network  lan
-    	option mode     ap
-    	option ssid     VoCore
-    	option encryption none
-    
-    config wifi-iface
-    	option device   radio0
-    	option network  wwan
-    	option mode     sta
-	    option ssid     VongerWifi
-    	option encryption psk2
-    	option key      PasswordForWifi
-
-修改相应ssid与密码即可。
-
-如果，你家的路由是用192.168.1.1作它的IP地址，那么为避免冲突，你必须修改VoCore的IP，修改文件里相应的IP，如192.168.61.1。
-
-    config interface 'lan'
-    	option ifname 'eth0.1'
-    	option type 'bridge'
-    	option proto 'static'
-    	option ipaddr '192.168.61.1'
-    	option netmask '255.255.255.0'
-    	option ip6assign '60'
-    	
-重启连接成功之后，VoCore便可以访问外网了。
+目前专注于Hadoop，YARN，Spark，对分布式系统有很大的兴趣，另外也想学习下机器学习与数据挖掘，希望能够深耕于大数据领域，欢迎同道中人多多交流与指点。
