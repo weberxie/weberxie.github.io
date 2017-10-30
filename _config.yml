@@ -125,11 +125,11 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : duoshuo
+    provider : disques
     duoshuo :
       short_name : xietingwen
     disqus :
-      short_name : xietingwen
+      short_name : weberxie
     livefyre :
       site_id : 123
     intensedebate :

@@ -4,6 +4,7 @@ category: Essay
 title: 仰望星空，也要脚踏实地
 tagline: by Weber
 tags: [Essay]
+comments: true
 ---
 靡不有初，鲜克有终。
 
@@ -21,3 +22,4 @@ tags: [Essay]
 #跳票#
 
 本来想写一篇Spark On YARN的博客，无奈腹中无货，憋了半天木有成果，把《Spark源码剖析》的内容搬过来也没啥意思，弃之，待他日通读一遍Spark On YARN的代码再来一篇高质量的博客吧。通过几次分享和写wiki发现，有高质量的输出必定要对内容有深刻的理解，无奈自己理解太浅、太浅、太浅。
+

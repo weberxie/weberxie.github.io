@@ -4,6 +4,7 @@ category: Spark
 title: Spark RDD持久化分析
 tagline: by Weber
 tags: [Spark RDD]
+comments: true
 ---
 Spark存储管理模块主要做两件事情，一是RDD的缓存，二是Shuffle数据的持久化。
 
@@ -54,3 +55,4 @@ Spark的持久化选项为：
 END
 
 参考自：《Spark 大数据处理技术》
+

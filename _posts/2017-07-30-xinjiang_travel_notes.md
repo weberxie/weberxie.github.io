@@ -4,6 +4,7 @@ category: 游记
 title: 新疆伊犁环线7日自驾杂记
 tagline: by Weber
 tags: [Travel]
+comments: true
 ---
 
 <!--more-->

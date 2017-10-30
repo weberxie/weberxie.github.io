@@ -4,6 +4,7 @@ category: JVM
 title: 简析常用GC算法
 tagline: by Weber
 tags: [JVM]
+comments: true
 ---
 GC即Garbage Collection
 
@@ -48,3 +49,5 @@ GC即Garbage Collection
 	存活对象较多的如老年代不适宜试用
 	
 ![](http://7d9m33.com1.z0.glb.clouddn.com/biaojifuzhi)
+
+
