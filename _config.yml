@@ -125,7 +125,7 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : disques
+    provider : disqus
     duoshuo :
       short_name : xietingwen
     disqus :
